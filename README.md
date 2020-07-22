@@ -1,1 +1,1 @@
-# kata-fizz-buzz
+# katas
