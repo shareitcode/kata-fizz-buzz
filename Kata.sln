@@ -3,18 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.FizzBuzz.Specs", "Kata.FizzBuzz.Specs\Kata.FizzBuzz.Specs.csproj", "{DD0A859F-E043-4034-8B98-64001CE41BDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.FizzBuzz.Specs", "Kata.FizzBuzz.Specs\Kata.FizzBuzz.Specs.csproj", "{DD0A859F-E043-4034-8B98-64001CE41BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.ConsoleApp", "FizzBuzz.ConsoleApp\FizzBuzz.ConsoleApp.csproj", "{93AAB4F5-2A1F-4D87-97C8-1D8D492A3B38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DD0A859F-E043-4034-8B98-64001CE41BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD0A859F-E043-4034-8B98-64001CE41BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0A859F-E043-4034-8B98-64001CE41BDD}.Debug|x64.ActiveCfg = Debug|x64
+		{DD0A859F-E043-4034-8B98-64001CE41BDD}.Debug|x64.Build.0 = Debug|x64
 		{DD0A859F-E043-4034-8B98-64001CE41BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD0A859F-E043-4034-8B98-64001CE41BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0A859F-E043-4034-8B98-64001CE41BDD}.Release|x64.ActiveCfg = Release|Any CPU
+		{DD0A859F-E043-4034-8B98-64001CE41BDD}.Release|x64.Build.0 = Release|Any CPU
+		{93AAB4F5-2A1F-4D87-97C8-1D8D492A3B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AAB4F5-2A1F-4D87-97C8-1D8D492A3B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AAB4F5-2A1F-4D87-97C8-1D8D492A3B38}.Debug|x64.ActiveCfg = Debug|x64
+		{93AAB4F5-2A1F-4D87-97C8-1D8D492A3B38}.Debug|x64.Build.0 = Debug|x64
+		{93AAB4F5-2A1F-4D87-97C8-1D8D492A3B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AAB4F5-2A1F-4D87-97C8-1D8D492A3B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AAB4F5-2A1F-4D87-97C8-1D8D492A3B38}.Release|x64.ActiveCfg = Release|x64
+		{93AAB4F5-2A1F-4D87-97C8-1D8D492A3B38}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
