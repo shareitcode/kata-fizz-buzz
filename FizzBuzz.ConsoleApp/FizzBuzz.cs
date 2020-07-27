@@ -34,10 +34,10 @@ namespace FizzBuzz.ConsoleApp
         /// <returns></returns>
         public string FizzBuzzSecondWay(int number)
         {
-            string result = string.Empty;
+            string result = number.ToString();
             if (number % 3 == 0) result = Fizz;
             if (number % 5 == 0) result += Buzz;
-            return !string.IsNullOrEmpty(result) ? result : number.ToString();
+            return result;
         }
 
         /// <summary>
