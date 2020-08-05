@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Kata.LeapYears.ConsoleApp;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechTalk.SpecFlow;
 
 namespace Kata.LeapYears.Specs.Steps
@@ -21,16 +22,22 @@ namespace Kata.LeapYears.Specs.Steps
             this._isLeapYear = this._year % denominator == 0;
         }
         
-        [Then(@"the result should be leap year")]
-        public void ThenTheResultShouldBeLeapYear()
-        {
-            Assert.IsTrue(this._isLeapYear);
-        }
-        
         [When(@"year not divisible by (.*)")]
         public void WhenYearNotDivisibleBy(int denominator)
         {
             this._isLeapYear = this._year % denominator != 0;
+        }
+
+        [When(@"the integer is leap year")]
+        public void WhenYearIsInteger()
+        {
+            this._isLeapYear = this._year.IsLeapYear();
+        }
+
+        [Then(@"the result should be leap year")]
+        public void ThenTheResultShouldBeLeapYear()
+        {
+            Assert.IsTrue(this._isLeapYear);
         }
     }
 }

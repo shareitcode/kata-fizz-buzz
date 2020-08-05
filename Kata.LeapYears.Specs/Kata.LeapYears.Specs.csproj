@@ -19,4 +19,8 @@
     
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Kata.LeapYears.ConsoleApp\Kata.LeapYears.ConsoleApp.csproj" />
+  </ItemGroup>
+
 </Project>

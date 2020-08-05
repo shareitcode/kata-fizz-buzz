@@ -1,27 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Kata.LeapYears.ConsoleApp
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
-            List<string> intDivisibleByCent = new List<string>();
+            Console.WriteLine($"|{"CUSTOM",5}|{"DOTNET",5}|");
             for (int i = 1000; i < 3000; i++)
             {
-                if (LeapYears.IsLeapYears(i))
-                {
-                    intDivisibleByCent.Add(i + "*");
-                    Console.WriteLine(i + "*");
-                }
-                else
-                {
-                    intDivisibleByCent.Add(i.ToString());
-                    Console.WriteLine(i);
-                }
+                string custom;
+                string dotNet;
+
+                if (i.IsLeapYear()) custom = i + "*";
+                else custom = i.ToString();
+                if (DateTime.IsLeapYear(i)) dotNet = i + "*";
+                else dotNet = i.ToString();
+
+                string isNotEqual = !custom.Equals(dotNet) ? "-----" : "";
+
+                Console.WriteLine($"|{custom,5}|{dotNet,5}|{isNotEqual}");
             }
-            var res = intDivisibleByCent;
         }
     }
 }
