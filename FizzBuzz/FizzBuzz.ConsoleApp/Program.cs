@@ -1,4 +1,4 @@
-﻿namespace FizzBuzz.ConsoleApp
+﻿namespace Kata.FizzBuzz.ConsoleApp
 {
     public class Program
     {

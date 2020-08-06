@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FizzBuzz.ConsoleApp
+namespace Kata.FizzBuzz.ConsoleApp
 {
     public sealed class FizzBuzzClass
     {
@@ -45,7 +45,7 @@ namespace FizzBuzz.ConsoleApp
         /// </summary>
         public void Compute()
         {
-            for (int i = 1; i < 101; i++) Console.WriteLine(this.FizzBuzz(i));
+            for (int i = 1; i < 101; i++) Console.WriteLine(FizzBuzz(i));
         }
     }
 }
