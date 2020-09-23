@@ -6,7 +6,7 @@ namespace Kata.StringCalculator.Specs.Steps
     [Binding]
     public class StringCalculatorSteps
     {
-        private readonly char[] _separators = new char[] { ',', '\n' };
+        private readonly string[] _separators = new string[] { ",", "\\n" };
         private string _numbers = string.Empty;
         private double _sumOfNumbers = 0.0;
 
@@ -30,7 +30,7 @@ namespace Kata.StringCalculator.Specs.Steps
 
         private void Add()
         {
-            string[] numbers = _numbers.Split(_separators);
+            string[] numbers = _numbers.Split(_separators, System.StringSplitOptions.None);
             if (numbers.Length > 0)
             {
                 for (int i = 0; i < numbers.Length; i++)

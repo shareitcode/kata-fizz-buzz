@@ -170,6 +170,19 @@ this._01Or2NumbersSeparatedByCommaNumbersAndReturnsTheirSum_("1", "1", ((string[
 this._01Or2NumbersSeparatedByCommaNumbersAndReturnsTheirSum_("1.1,2.2", "3.3", ((string[])(null)));
 #line hidden
         }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("0, 1 or 2 numbers separated by comma numbers and returns their sum.: 1\\n2,3")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "String Calculator")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "1\\n2,3")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:numbers", "1\\n2,3")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:sums", "6")]
+        public virtual void _01Or2NumbersSeparatedByCommaNumbersAndReturnsTheirSum__1N23()
+        {
+#line 28
+this._01Or2NumbersSeparatedByCommaNumbersAndReturnsTheirSum_("1\\n2,3", "6", ((string[])(null)));
+#line hidden
+        }
     }
 }
 #pragma warning restore

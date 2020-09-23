@@ -35,5 +35,5 @@ Scenario: 0, 1 or 2 numbers separated by comma numbers and returns their sum.
 		|         | 0    |
 		| 1       | 1    |
 		| 1.1,2.2 | 3.3  |
-#| 1\n2,3  | 6    |
+		| 1\\n2,3  | 6    |
 #		| 175.2,\n35 | Number expected but '\n' found at position 6. |
