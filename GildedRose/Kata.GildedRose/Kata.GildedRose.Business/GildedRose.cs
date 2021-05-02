@@ -9,26 +9,23 @@ namespace Kata.GildedRose.Business
 		private const string Sulfuras = "Sulfuras, Hand of Ragnaros";
 		public readonly IList<Item> Items;
 
-		public GildedRose(IList<Item> Items)
-		{
-			this.Items = Items;
-		}
+		public GildedRose(IList<Item> Items) => this.Items = Items;
 
 		public void UpdateQuality()
 		{
-			foreach (Item item in Items)
+			foreach (Item item in this.Items)
 			{
-				if (item.Name != AgedBrie && item.Name != BackstagePasses && item.Quality > 0 && item.Name != Sulfuras)
+				if (item.Name != AgedBrie && item.Name != BackstagePasses && item.QualityIsGreaterThanZero() && item.Name != Sulfuras)
 				{
 					item.DecreaseQuality();
 				}
 				else
 				{
-					if (item.Quality < 50)
+					if (item.QualityIsSmallerThanFifty())
 					{
 						item.IncrementQuality();
 
-						if (item.Name == BackstagePasses && item.SellIn is < 11 or < 6)
+						if (item.Name == BackstagePasses && item.SellInIsSmallerThanEleven())
 						{
 							item.IncrementQuality();
 						}
@@ -40,11 +37,11 @@ namespace Kata.GildedRose.Business
 					item.DecreaseSellIn();
 				}
 
-				if (item.SellIn < 0)
+				if (item.SellInIsSmallerThanZero())
 				{
 					if (item.Name == AgedBrie)
 					{
-						if (item.Quality < 50)
+						if (item.QualityIsSmallerThanFifty())
 						{
 							item.IncrementQuality();
 						}
@@ -53,7 +50,7 @@ namespace Kata.GildedRose.Business
 					{
 						item.Quality -= item.Quality;
 					}
-					else if (item.Quality > 0 && item.Name != Sulfuras)
+					else if (item.QualityIsGreaterThanZero() && item.Name != Sulfuras)
 					{
 						item.DecreaseQuality();
 					}

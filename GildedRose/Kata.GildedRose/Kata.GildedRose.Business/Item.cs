@@ -19,5 +19,10 @@
 		public void IncrementQuality() => this.Quality++;
 		public void DecreaseQuality() => this.Quality--;
 		public void DecreaseSellIn() => this.SellIn--;
+
+		public bool QualityIsSmallerThanFifty() => this.Quality < 50;
+		public bool SellInIsSmallerThanZero() => this.SellIn < 0;
+		public bool QualityIsGreaterThanZero() => this.Quality > 0;
+		public bool SellInIsSmallerThanEleven() => this.SellIn < 11;
 	}
 }
