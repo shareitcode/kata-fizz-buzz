@@ -36,11 +36,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katas.GameOfLife.ConsoleApp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GildedRose", "GildedRose", "{39087177-3511-438C-8BEF-04D46A3D3982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.GildedRose.ConsoleApp", "GildedRose\Kata.GildedRose\Kata.GildedRose.ConsoleApp\Kata.GildedRose.ConsoleApp.csproj", "{D59239A2-9BDD-4628-B7E3-C25636C515F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.GildedRose.ConsoleApp", "GildedRose\Kata.GildedRose\Kata.GildedRose.ConsoleApp\Kata.GildedRose.ConsoleApp.csproj", "{D59239A2-9BDD-4628-B7E3-C25636C515F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.GildedRose.Business", "GildedRose\Kata.GildedRose\Kata.GildedRose.Business\Kata.GildedRose.Business.csproj", "{E0982429-5493-458B-85C3-A2E0BC4495FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.GildedRose.Business", "GildedRose\Kata.GildedRose\Kata.GildedRose.Business\Kata.GildedRose.Business.csproj", "{E0982429-5493-458B-85C3-A2E0BC4495FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.GildedRose.Tests", "GildedRose\Kata.GildedRose\Kata.GildedRose.Tests\Kata.GildedRose.Tests.csproj", "{5924071C-C8DD-49B0-8A50-E39E422FC8F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.GildedRose.Tests", "GildedRose\Kata.GildedRose\Kata.GildedRose.Tests\Kata.GildedRose.Tests.csproj", "{5924071C-C8DD-49B0-8A50-E39E422FC8F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tennis", "Tennis", "{2EB42048-3F37-445F-A297-6F79602EEAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Tennis.ConsoleApp", "Tennis\Kata.Tennis\Kata.Tennis.ConsoleApp\Kata.Tennis.ConsoleApp.csproj", "{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Tennis.Business", "Tennis\Kata.Tennis\Kata.Tennis.Business\Kata.Tennis.Business.csproj", "{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Tennis.Tests", "Tennis\Kata.Tennis\Kata.Tennis.Tests\Kata.Tennis.Tests.csproj", "{2055E333-7EE5-4FF4-80E1-68038DFD9A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,6 +154,30 @@ Global
 		{5924071C-C8DD-49B0-8A50-E39E422FC8F9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5924071C-C8DD-49B0-8A50-E39E422FC8F9}.Release|x64.ActiveCfg = Release|Any CPU
 		{5924071C-C8DD-49B0-8A50-E39E422FC8F9}.Release|x64.Build.0 = Release|Any CPU
+		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}.Debug|x64.Build.0 = Debug|Any CPU
+		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}.Release|x64.ActiveCfg = Release|Any CPU
+		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}.Release|x64.Build.0 = Release|Any CPU
+		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}.Debug|x64.Build.0 = Debug|Any CPU
+		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}.Release|x64.ActiveCfg = Release|Any CPU
+		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}.Release|x64.Build.0 = Release|Any CPU
+		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Debug|x64.Build.0 = Debug|Any CPU
+		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Release|x64.ActiveCfg = Release|Any CPU
+		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -163,6 +195,9 @@ Global
 		{D59239A2-9BDD-4628-B7E3-C25636C515F5} = {39087177-3511-438C-8BEF-04D46A3D3982}
 		{E0982429-5493-458B-85C3-A2E0BC4495FE} = {39087177-3511-438C-8BEF-04D46A3D3982}
 		{5924071C-C8DD-49B0-8A50-E39E422FC8F9} = {39087177-3511-438C-8BEF-04D46A3D3982}
+		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD} = {2EB42048-3F37-445F-A297-6F79602EEAFA}
+		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015} = {2EB42048-3F37-445F-A297-6F79602EEAFA}
+		{2055E333-7EE5-4FF4-80E1-68038DFD9A39} = {2EB42048-3F37-445F-A297-6F79602EEAFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {831457A6-C462-43D1-8AD4-2E06F0DCEA30}
