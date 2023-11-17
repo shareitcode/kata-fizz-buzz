@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30309.148
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.FizzBuzz.Specs", "FizzBuzz\Kata.FizzBuzz.Specs\Kata.FizzBuzz.Specs.csproj", "{DD0A859F-E043-4034-8B98-64001CE41BDD}"
 EndProject
@@ -44,11 +44,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.GildedRose.Tests", "Gi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tennis", "Tennis", "{2EB42048-3F37-445F-A297-6F79602EEAFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Tennis.ConsoleApp", "Tennis\Kata.Tennis\Kata.Tennis.ConsoleApp\Kata.Tennis.ConsoleApp.csproj", "{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Tennis.ConsoleApp", "Tennis\Kata.Tennis\Kata.Tennis.ConsoleApp\Kata.Tennis.ConsoleApp.csproj", "{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Tennis.Business", "Tennis\Kata.Tennis\Kata.Tennis.Business\Kata.Tennis.Business.csproj", "{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Tennis.Business", "Tennis\Kata.Tennis\Kata.Tennis.Business\Kata.Tennis.Business.csproj", "{D4D86F7A-D45E-40D1-99F7-D3BC67D46015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Tennis.Tests", "Tennis\Kata.Tennis\Kata.Tennis.Tests\Kata.Tennis.Tests.csproj", "{2055E333-7EE5-4FF4-80E1-68038DFD9A39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Tennis.Tests", "Tennis\Kata.Tennis\Kata.Tennis.Tests\Kata.Tennis.Tests.csproj", "{2055E333-7EE5-4FF4-80E1-68038DFD9A39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MarsRover", "MarsRover", "{17472CF9-6E76-43BA-B87D-E28A06D3957E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katas.MarsRover.Business", "MarsRover\Katas.MarsRover.Business\Katas.MarsRover.Business.csproj", "{3DC32BE4-5674-4D64-B673-CC2D57B37890}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katas.MarsRover.Business.Test", "MarsRover\Katas.MarsRover.Business.Test\Katas.MarsRover.Business.Test.csproj", "{7849A9F8-BEC1-4943-98E7-F4B241301F2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -178,6 +184,22 @@ Global
 		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Release|x64.ActiveCfg = Release|Any CPU
 		{2055E333-7EE5-4FF4-80E1-68038DFD9A39}.Release|x64.Build.0 = Release|Any CPU
+		{3DC32BE4-5674-4D64-B673-CC2D57B37890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC32BE4-5674-4D64-B673-CC2D57B37890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC32BE4-5674-4D64-B673-CC2D57B37890}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3DC32BE4-5674-4D64-B673-CC2D57B37890}.Debug|x64.Build.0 = Debug|Any CPU
+		{3DC32BE4-5674-4D64-B673-CC2D57B37890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC32BE4-5674-4D64-B673-CC2D57B37890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC32BE4-5674-4D64-B673-CC2D57B37890}.Release|x64.ActiveCfg = Release|Any CPU
+		{3DC32BE4-5674-4D64-B673-CC2D57B37890}.Release|x64.Build.0 = Release|Any CPU
+		{7849A9F8-BEC1-4943-98E7-F4B241301F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7849A9F8-BEC1-4943-98E7-F4B241301F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7849A9F8-BEC1-4943-98E7-F4B241301F2C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7849A9F8-BEC1-4943-98E7-F4B241301F2C}.Debug|x64.Build.0 = Debug|Any CPU
+		{7849A9F8-BEC1-4943-98E7-F4B241301F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7849A9F8-BEC1-4943-98E7-F4B241301F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7849A9F8-BEC1-4943-98E7-F4B241301F2C}.Release|x64.ActiveCfg = Release|Any CPU
+		{7849A9F8-BEC1-4943-98E7-F4B241301F2C}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +220,8 @@ Global
 		{97E5B4AB-3DBA-4D43-942A-E3A248BDC0BD} = {2EB42048-3F37-445F-A297-6F79602EEAFA}
 		{D4D86F7A-D45E-40D1-99F7-D3BC67D46015} = {2EB42048-3F37-445F-A297-6F79602EEAFA}
 		{2055E333-7EE5-4FF4-80E1-68038DFD9A39} = {2EB42048-3F37-445F-A297-6F79602EEAFA}
+		{3DC32BE4-5674-4D64-B673-CC2D57B37890} = {17472CF9-6E76-43BA-B87D-E28A06D3957E}
+		{7849A9F8-BEC1-4943-98E7-F4B241301F2C} = {17472CF9-6E76-43BA-B87D-E28A06D3957E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {831457A6-C462-43D1-8AD4-2E06F0DCEA30}
