@@ -11,7 +11,7 @@ namespace Katas.MarsRover.Business.Test;
 */
 
 [TestClass]
-public class RoverTest
+public sealed class RoverTest
 {
     [TestMethod]
     public void ShouldBeStartOnPointZeroZeroInNorthFacing()
@@ -76,6 +76,6 @@ public class RoverTest
         Rover roverUpdated = RoverCommandHandler.Handles(rover, RoverCommand.TurnRight, RoverCommand.TurnRight, RoverCommand.Forward);
 
         roverUpdated.Position.Should().Be(new Point(0, -1));
-        roverUpdated.Facing.Should().Be(Facing.East);
+        roverUpdated.Facing.Should().Be(Facing.South);
     }
 }

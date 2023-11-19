@@ -54,9 +54,12 @@ public static class RoverCommandHandler
         if (command.Equals(Command.TurnLeft))
             return rover with { Facing = Facing.West };
 
-        if (command.Equals(Command.TurnRight))
+        if (command.Equals(Command.TurnRight) && rover.Facing.Equals(Facing.North))
             return rover with { Facing = Facing.East };
 
-        return rover;
+		if (command.Equals(Command.TurnRight) && rover.Facing.Equals(Facing.East))
+			return rover with { Facing = Facing.South };
+
+		return rover;
     }
 }
